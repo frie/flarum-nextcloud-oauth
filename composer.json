@@ -1,0 +1,53 @@
+{
+	"name" : "frie/flarum-nextcloud-oauth",
+	"description" : "Allow users to log in with Nextcloud!",
+	"keywords" : [
+		"flarum",
+		"oauth",
+		"nextcloud"
+	],
+	"type" : "flarum-extension",
+	"license" : "MIT",
+	"support" : {
+		"issues" : "https://github.com/frie/flarum-nextcloud-oauth/issues",
+		"source" : "https://github.com/frie/flarum-nextcloud-oauth"
+	},
+	"homepage" : "https://github.com/frie/flarum-nextcloud-oauth",
+	"funding" : [{
+			"type" : "website",
+			"url" : "https://opencollective.com/fof/donate"
+		}
+	],
+	"require" : {
+		"flarum/core" : "^1.0.0",
+		"fof/oauth" : "^1.0.0",
+		"bahuma/oauth2-nextcloud" : ">=1.1.0"
+	},
+	"replace" : {
+	},
+	"authors" : [{
+			"name" : "Friedrich Kammer",
+			"email" : "ork@gmx.de",
+			"role" : "Developer"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"FoF\\OAuth\\" : "src/"
+		}
+	},
+	"extra" : {
+		"flarum-extension" : {
+			"title" : "Flarum Nextcloud OAuth",
+			"category" : "feature",
+			"icon" : {
+				"name" : "fas fa-cloud-sun-rain",
+				"backgroundColor" : "#cc4444",
+				"color" : "#eee"
+			}
+		},
+		"flagrow" : {
+			"discuss" : "https://discuss.flarum.org/d/25182"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        nextcloud:
+          description: 'Bei Nextcloud: konfiguriere einen OAuth 2.0 Client unter "Einstellungen / Sicherheit"'
+
+          base_uri_label: Basis-URI
+          copy_user_label: 'Username von Nextcloud übernehmen (keine Auswahl durch User)'
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+          icon_name_label: Name Icon
+
+  forum:
+    log_in:
+      with_nextcloud_button: '=> fof-oauth.forum.log_in.with_button'
+
+    providers:
+      nextcloud: '=> fof-oauth.lib.providers.nextcloud'
+
+  lib:
+    providers:
+      nextcloud: Nextcloud
