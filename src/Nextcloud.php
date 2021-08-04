@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\OAuth\Providers;
+namespace FoF\OAuth;
 
 use Throwable;
 use Flarum\Forum\Auth\Registration;
