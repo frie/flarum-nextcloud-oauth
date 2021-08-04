@@ -1,4 +1,6 @@
-# OAuth by FriendsOfFlarum - added Nextcloud
+# OAuth for Nextcloud
+
+## A supplement to the OAuth extenstion fof/oauth by FriendsOfFlarum
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -9,30 +11,22 @@ This fork is not intended as a permanent replacement - hopefully Nextcloud some 
 
 ### Installation
 
-Add the following lines to the composer.json file of your flarum installation:
-```json
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/frie/flarum-oauth"
-        }
-    ],
-```
-
-The rest of the installation works as usual:
-
 ```sh
-composer require fof/oauth:"dev-master"
+composer require frie/flarum-nextcloud-oauth
 ```
 
 ### Updating
 
 ```sh
-composer update fof/oauth
+composer update frie/flarum-nextcloud-oauth
 ```
 
 
 ### Configuration
+
+Before activating this extension, `fof/oauth` also needs to be activated.
+
+The Nextcloud provider is configured in the scope of `fof/oauth`
 
 #### Configuration for Nextcloud
 
