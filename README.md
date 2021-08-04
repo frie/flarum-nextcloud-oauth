@@ -38,7 +38,7 @@ A german translation was added to the original.
 
 ### Links
 
-- Original code: [GitHub](https://github.com/FriendsOfFlarum/oauth)
+- Base extension: [GitHub](https://github.com/FriendsOfFlarum/oauth)
 
 ### Nextcloud integration
   
