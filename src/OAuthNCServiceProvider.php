@@ -1,6 +1,8 @@
 <?php
 namespace FoF\OAuth;
 
+use Illuminate\Support\ServiceProvider;
+
 class OAuthNCServiceProvider extends ServiceProvider
 {
     public function register()
