@@ -5,9 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-A [Flarum](http://flarum.org) extension. Allow users to log in with GitHub, Twitter, Facebook, Discord, GitLab, Google, LinkedIn - and now also Nextcloud!
-
-This fork is not intended as a permanent replacement - hopefully Nextcloud some time will make its way to the code of FriendsOfFlarum
+A [Flarum](http://flarum.org) extension supplementing `fof/oauth` (OAUth for Flarum by FriendsOfFlarum) with a lean implementation for community owned Nextcloud instances.
 
 ### Installation
 
