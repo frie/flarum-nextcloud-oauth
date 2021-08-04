@@ -38,7 +38,7 @@
 	},
 	"extra" : {
 		"flarum-extension" : {
-			"title" : "Flarum Nextcloud OAuth",
+			"title" : "Nextcloud OAuth",
 			"category" : "feature",
 			"icon" : {
 				"name" : "fas fa-cloud-sun-rain",
