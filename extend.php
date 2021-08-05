@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of fof/oauth.
+ * This file is part of frie/flarum-nextcloud-oauth.
  *
- * Copyright (c) FriendsOfFlarum.
+ * Copyright (c) Friedrich Kammer.
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
