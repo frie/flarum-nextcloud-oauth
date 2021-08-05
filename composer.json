@@ -13,11 +13,6 @@
 		"source" : "https://github.com/frie/flarum-nextcloud-oauth"
 	},
 	"homepage" : "https://github.com/frie/flarum-nextcloud-oauth",
-	"funding" : [{
-			"type" : "website",
-			"url" : "https://opencollective.com/fof/donate"
-		}
-	],
 	"require" : {
 		"flarum/core" : "^1.0.0",
 		"fof/oauth" : "^1.0.0",
@@ -27,7 +22,7 @@
 	},
 	"authors" : [{
 			"name" : "Friedrich Kammer",
-			"email" : "ork@gmx.de",
+			"email" : "h.f.kammer@gmx.de",
 			"role" : "Developer"
 		}
 	],
@@ -47,7 +42,7 @@
 			}
 		},
 		"flagrow" : {
-			"discuss" : "https://discuss.flarum.org/d/25182"
+			"discuss" : "https://discuss.flarum.org/"
 		}
 	}
 }
