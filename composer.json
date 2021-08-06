@@ -14,8 +14,8 @@
 	},
 	"homepage" : "https://github.com/frie/flarum-nextcloud-oauth",
 	"require" : {
-		"flarum/core" : "^1.0.0",
-		"fof/oauth" : "^1.0.0",
+		"flarum/core" : ">=1.0.0",
+		"fof/oauth" : ">=1.0.0",
 		"bahuma/oauth2-nextcloud" : ">=1.1.0"
 	},
 	"replace" : {
